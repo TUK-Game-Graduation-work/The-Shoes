@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637961731711114097
-    m_Hash: 1071124706
+      ticks: 637964943607492484
+    m_Hash: 3611920377
   m_LockFileStatus:
     m_FilePath: C:/Users/82107/Unity Projects/The-Shoes/The Shoes/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637961732242627601
-    m_Hash: 2593603777
+      ticks: 637964943607500473
+    m_Hash: 3793744847
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
