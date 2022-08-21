@@ -15,7 +15,7 @@ C:/Users/82107/Unity Projects/The-Shoes/The Shoes
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-60321
+56423
 Successfully changed project path to: C:/Users/82107/Unity Projects/The-Shoes/The Shoes
 C:/Users/82107/Unity Projects/The-Shoes/The Shoes
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/82107/Unity Projects/The-Shoes/The Shoes
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 176.15 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 202.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.8f1 (b30333d56e81)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -63,171 +63,171 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.019408 seconds.
+Registered in 0.020385 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 163.74 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 220.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.330 seconds
+- Completed reload, in  1.400 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1331ms)
+	ReloadAssembly (1400ms)
 		BeginReloadAssembly (202ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (876ms)
-			LoadAssemblies (194ms)
+		EndReloadAssembly (945ms)
+			LoadAssemblies (193ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (203ms)
+			SetupTypeCache (213ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (511ms)
+			SetupLoadedEditorAssemblies (565ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
+				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (164ms)
+				RefreshPlugins (220ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (241ms)
-				ProcessInitializeOnLoadMethodAttributes (87ms)
+				ProcessInitializeOnLoadAttributes (234ms)
+				ProcessInitializeOnLoadMethodAttributes (90ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.025932 seconds.
+Registered in 0.024448 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000029B32E13020 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-000001F9B948EEA0 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B33BD6830 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001F9BAA61AC0 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B329E8B80 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001F9B94C56B0 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B329B8010 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
+Symbol file data-000001F9BAA61AC0 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B32E49830 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file data-000001F9B9426BC0 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B329BDC20 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file data-000001F9B92EC050 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B329BDC20 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001F9B98EDAA0 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B32B88030 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001F9B94C56B0 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B32B88030 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001F9B94C56B0 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B3261F060 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file data-000001F9B8D40080 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B33E21C20 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001F9B975F020 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B329BDC20 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file data-000001F9B98EDAA0 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B3261F060 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001F9B94621E0 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B32BFA230 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
+Symbol file data-000001F9B98EDAA0 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B32BFA230 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-000001F9B98EDAA0 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B32BFA230 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file data-000001F9B98EDAA0 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B3268B010 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file data-000001F9B935C020 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B3266F270 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001F9B98EDAA0 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B326A0020 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000001F9B93DC030 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B3266F270 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001F9B98EDAA0 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B33E51030 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
+Symbol file data-000001F9B98EDAA0 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B31F7D290 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001F9B93EEC40 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B32BFA230 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
+Symbol file data-000001F9B98EDAA0 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2EAC8020 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Services.Core.dll
+Symbol file data-000001F9B98EDAA0 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Services.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B341FA020 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file data-000001F9BA762010 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2EAC8020 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file data-000001F9B98EDAA0 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B33E51030 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file data-000001F9B98EDAA0 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2EAC8020 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
+Symbol file data-000001F9B98EDAA0 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B31F9D0B0 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
+Symbol file data-000001F9B9304070 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2EAC8020 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
+Symbol file data-000001F9B98F1CB0 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B32ADE040 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-000001F9B98F1CB0 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B32ADE040 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
+Symbol file data-000001F9B9304070 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B3247B630 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file data-000001F9B98F1CB0 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B32ADE040 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
+Symbol file data-000001F9B98F1CB0 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B32ADE040 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
+Symbol file data-000001F9B9304070 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B341FA020 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001F9B8FA6FD0 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B326CF250 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001F9BA808020 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B32ADE040 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
+Symbol file data-000001F9B98F1CB0 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B34222830 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file data-000001F9B9408060 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B33E51030 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file data-000001F9B9408060 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B32ADE040 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Services.Core.Device.dll
+Symbol file data-000001F9B9408060 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Services.Core.Device.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.261 seconds
+- Completed reload, in  2.184 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2263ms)
-		BeginReloadAssembly (329ms)
+	ReloadAssembly (2186ms)
+		BeginReloadAssembly (252ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
+			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (51ms)
-		EndReloadAssembly (1669ms)
-			LoadAssemblies (254ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1681ms)
+			LoadAssemblies (218ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (537ms)
+			SetupTypeCache (521ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (102ms)
-			SetupLoadedEditorAssemblies (765ms)
+			RebuildScriptCaches (88ms)
+			SetupLoadedEditorAssemblies (794ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (210ms)
-				ProcessInitializeOnLoadAttributes (450ms)
-				ProcessInitializeOnLoadMethodAttributes (54ms)
-				AfterProcessingInitializeOnLoad (31ms)
+				BeforeProcessingInitializeOnLoad (215ms)
+				ProcessInitializeOnLoadAttributes (474ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (32ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 2.03 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3378 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (110.9 KB). Loaded Objects now: 3836.
-Memory consumption went from 117.1 MB to 117.0 MB.
-Total: 6.142400 ms (FindLiveObjects: 0.428600 ms CreateObjectMapping: 0.311600 ms MarkObjects: 5.220900 ms  DeleteObjects: 0.179700 ms)
+Unloading 3383 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (112.1 KB). Loaded Objects now: 3855.
+Memory consumption went from 130.1 MB to 130.0 MB.
+Total: 5.546700 ms (FindLiveObjects: 0.452600 ms CreateObjectMapping: 0.315700 ms MarkObjects: 4.610700 ms  DeleteObjects: 0.166600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -241,48 +241,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 85184.840702 seconds.
-  path: Assets/Fantasy Forest Environment Free Sample/Scenes/New Terrain.asset
-  artifactKey: Guid(02bc0e2176f6a4e4ea3faf0c622664cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Forest Environment Free Sample/Scenes/New Terrain.asset using Guid(02bc0e2176f6a4e4ea3faf0c622664cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tree prefab at index 0 is missing.
- -> (artifact id: '2fe93d1a8b2a114f34689c6fef19b474') in 0.192185 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 120.799520 seconds.
-  path: Assets/Fantasy Forest Environment Free Sample/Materials/dirt01.mat
-  artifactKey: Guid(02f626fd2f11216458890862c5864d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Forest Environment Free Sample/Materials/dirt01.mat using Guid(02f626fd2f11216458890862c5864d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f16c0803386ba2b9ef1bb8043d980f') in 0.368396 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Fantasy Forest Environment Free Sample/Materials/skyMaterial.mat
-  artifactKey: Guid(cb20c710b0721ef4d88cabbec2aa4da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Forest Environment Free Sample/Materials/skyMaterial.mat using Guid(cb20c710b0721ef4d88cabbec2aa4da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'facbc91433245f2adbe07091e62bf8e2') in 0.211517 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Fantasy Forest Environment Free Sample/Materials/tree_branches.mat
-  artifactKey: Guid(16a185093c7e02d40a49265c23c74417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Forest Environment Free Sample/Materials/tree_branches.mat using Guid(16a185093c7e02d40a49265c23c74417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7002fa57a650e979d5d617011eb9eb8') in 0.478060 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.552472 seconds.
-  path: Assets/Fantasy Forest Environment Free Sample/Textures/dirt01.tga
-  artifactKey: Guid(30ec70ef60a2bb54ea2df6f72c77bdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Forest Environment Free Sample/Textures/dirt01.tga using Guid(30ec70ef60a2bb54ea2df6f72c77bdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9ab4132d493b4fba5ca2e5a3baa6add') in 0.036062 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Fantasy Forest Environment Free Sample/Textures/grassmesh.png
-  artifactKey: Guid(4e364662e65fd2d4a995a4efe45af277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Forest Environment Free Sample/Textures/grassmesh.png using Guid(4e364662e65fd2d4a995a4efe45af277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5fbdd17af7021bcfcd0c0d46ae802df') in 0.035941 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Fantasy Forest Environment Free Sample/Textures/grass01.tga
-  artifactKey: Guid(6c41a2cea80b4fc499bac2a6c14a4514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Forest Environment Free Sample/Textures/grass01.tga using Guid(6c41a2cea80b4fc499bac2a6c14a4514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ed75f8d836f368fec6fa7f12bb1e73') in 0.023085 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 14057.385218 seconds.
+  path: Assets/Supercyan Character Pack Free Sample/Materials/Mobile/free_male_1_head_low.mat
+  artifactKey: Guid(c9893909aae4a0644a72da08dc9b62ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Free Sample/Materials/Mobile/free_male_1_head_low.mat using Guid(c9893909aae4a0644a72da08dc9b62ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7988d44b4ef7820981e7511b0494cf66') in 0.359033 seconds 
