@@ -1,0 +1,355 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.8f1 (b30333d56e81) revision 11731763'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'ko' Physical Memory: 16226 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/82107/Unity Projects/The-Shoes/The Shoes
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56423
+Successfully changed project path to: C:/Users/82107/Unity Projects/The-Shoes/The Shoes
+C:/Users/82107/Unity Projects/The-Shoes/The Shoes
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 196.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.8f1 (b30333d56e81)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/82107/Unity Projects/The-Shoes/The Shoes/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   30.0.15.1215
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56760
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.020224 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 165.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.344 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1345ms)
+		BeginReloadAssembly (204ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (891ms)
+			LoadAssemblies (195ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (215ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (509ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (165ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (236ms)
+				ProcessInitializeOnLoadMethodAttributes (88ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.024425 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001DB3C541930 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DB3C54CF40 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DB3C54CF40 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DB39DE2410 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DB3C54CF40 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DB3BB3E020 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DB3BB3E020 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DB3BB3E020 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DB3BB3E020 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DB3B5FD010 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DB3B5FD010 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DB3BB3E020 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DB3B62C420 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DB3C572560 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DB3C572560 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DB3C572560 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DB3A3EF030 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DB3BB46030 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DB3A3EF030 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DB3BB46030 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DB3BB46030 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DB3A927010 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DB3C572560 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DB3C572560 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DB3A927010 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DB3C572560 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DB3BB46030 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DB3C572560 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DB3C572560 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DB3BB46030 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DB3BB46030 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DB3BB46030 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DB3A435650 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DB3BB46030 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DB3BB46030 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DB3A927010 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DB3A435650 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DB3A435650 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DB3A435650 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DB3A43C060 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DB3A43C060 doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\ScriptAssemblies\Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\82107\Unity Projects\The-Shoes\The Shoes\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.182 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2184ms)
+		BeginReloadAssembly (250ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (1690ms)
+			LoadAssemblies (223ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (511ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (88ms)
+			SetupLoadedEditorAssemblies (822ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (239ms)
+				ProcessInitializeOnLoadAttributes (475ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (32ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3383 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (112.1 KB). Loaded Objects now: 3855.
+Memory consumption went from 130.1 MB to 130.0 MB.
+Total: 5.487900 ms (FindLiveObjects: 0.393600 ms CreateObjectMapping: 0.320300 ms MarkObjects: 4.603900 ms  DeleteObjects: 0.168900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 13935.310195 seconds.
+  path: Assets/Supercyan Character Pack Free Sample/Scenes
+  artifactKey: Guid(3412f14f3420c45498caca870b836a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Free Sample/Scenes using Guid(3412f14f3420c45498caca870b836a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01101377aeb93317ebac9f484dd4b129') in 0.019616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.423182 seconds.
+  path: Assets/Supercyan Character Pack Free Sample/Models
+  artifactKey: Guid(6617294e24c06294b8ac35eb88a4ad9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Free Sample/Models using Guid(6617294e24c06294b8ac35eb88a4ad9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a27693c571030267b735860fb078b10') in 0.012705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.291349 seconds.
+  path: Assets/Supercyan Character Pack Free Sample/Models/free_male_1.FBX
+  artifactKey: Guid(461413943bab6ef40aa2a33f18380180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Free Sample/Models/free_male_1.FBX using Guid(461413943bab6ef40aa2a33f18380180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c3f04e9805e348c43282f0c3fcee1a') in 0.881495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.714438 seconds.
+  path: Assets/Scenes/Stage1.unity
+  artifactKey: Guid(edbc74c94c8e8e743a4fc54cadb587dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage1.unity using Guid(edbc74c94c8e8e743a4fc54cadb587dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b9bb86dba72e8411b35904c2c7f410b') in 0.017111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 96.579133 seconds.
+  path: Assets/Supercyan Character Pack Free Sample/Materials
+  artifactKey: Guid(136dc7246704b7743995a489bb65232a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Free Sample/Materials using Guid(136dc7246704b7743995a489bb65232a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcdbc2a29f36988468a1b8c75ca0309e') in 0.013416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.924129 seconds.
+  path: Assets/Supercyan Character Pack Free Sample/Materials/Mobile
+  artifactKey: Guid(140d7227ead3d11478075d31d738f3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Free Sample/Materials/Mobile using Guid(140d7227ead3d11478075d31d738f3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '272674ec8a8abc4d1fe1fcc0e78285e8') in 0.012728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.122741 seconds.
+  path: Assets/Supercyan Character Pack Free Sample/Materials/Mobile/free_male_1_body_low.mat
+  artifactKey: Guid(20e17aac92cea844aaa708706067eb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Free Sample/Materials/Mobile/free_male_1_body_low.mat using Guid(20e17aac92cea844aaa708706067eb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c9c450e4f61c1cb831f7cce69847dba') in 0.214294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.893456 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.013318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 64.351635 seconds.
+  path: Assets/Script
+  artifactKey: Guid(92f6669da13fe9a419d68f24726c1fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script using Guid(92f6669da13fe9a419d68f24726c1fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f876c3c1c1682612890c7b4ee48e8f') in 0.014179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.412205 seconds.
+  path: Assets/Script/Character
+  artifactKey: Guid(b7a3ac9c126036248bb8d98415a7cf7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Character using Guid(b7a3ac9c126036248bb8d98415a7cf7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7693cf8a42ce5a24ee8d01817224e98e') in 0.013345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.384797 seconds.
+  path: Assets/Script/Obstacle
+  artifactKey: Guid(2d86c1e16cdf9f54fbafd1cd6ab2c66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Obstacle using Guid(2d86c1e16cdf9f54fbafd1cd6ab2c66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '005a65f9c489f09f70c8975377eafe5c') in 0.012541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.608816 seconds.
+  path: Assets/Script/Obstacles
+  artifactKey: Guid(2d86c1e16cdf9f54fbafd1cd6ab2c66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Obstacles using Guid(2d86c1e16cdf9f54fbafd1cd6ab2c66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e0d80acc2a366747818594b2b931d5') in 0.014496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.411749 seconds.
+  path: Assets/Script/Maps
+  artifactKey: Guid(5cf10de5a73c0a1438259dd8a8133637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Maps using Guid(5cf10de5a73c0a1438259dd8a8133637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '565abb66ffc8495f7f3a5ceea445bce8') in 0.013322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.281667 seconds.
+  path: Assets/BGM
+  artifactKey: Guid(7ea91119aea92c24ebde88abd9a7f07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BGM using Guid(7ea91119aea92c24ebde88abd9a7f07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '041350b1e0b039595559cf14de839f96') in 0.012965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.159045 seconds.
+  path: Assets/Music
+  artifactKey: Guid(7ea91119aea92c24ebde88abd9a7f07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music using Guid(7ea91119aea92c24ebde88abd9a7f07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e7400af887bb1bc63179951de507548') in 0.013682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.463439 seconds.
+  path: Assets/Music/BGM
+  artifactKey: Guid(6009b6c9ad3275e45a738bbe779a5d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/BGM using Guid(6009b6c9ad3275e45a738bbe779a5d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c36d24aa4cfa5f3f96a086cfc00337') in 0.006793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.869534 seconds.
+  path: Assets/Music/New Folder
+  artifactKey: Guid(733f30edbfcd9054086aa8d23a726bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/New Folder using Guid(733f30edbfcd9054086aa8d23a726bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34bc919ff5eabd4dc94b40c8dd519973') in 0.015279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.477066 seconds.
+  path: Assets/Music/Sound Effact
+  artifactKey: Guid(733f30edbfcd9054086aa8d23a726bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Sound Effact using Guid(733f30edbfcd9054086aa8d23a726bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e2cb7be415b969efeef1bd8f9c2840') in 0.012791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.257812 seconds.
+  path: Assets/Music/Sound Effacts
+  artifactKey: Guid(733f30edbfcd9054086aa8d23a726bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Sound Effacts using Guid(733f30edbfcd9054086aa8d23a726bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a82c9de40fc1980855351bbe3095e35e') in 0.012541 seconds 
