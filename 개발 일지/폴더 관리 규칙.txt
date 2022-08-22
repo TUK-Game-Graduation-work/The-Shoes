@@ -1,0 +1,7 @@
+01.Scenes : 씬 저장
+02.Scripts : C# 스크립트 저장
+03.Prefebs : 프리팹 저장
+04.Images : 텍스처 이미지 및 Material저장
+05.Models : 3D모델 저장
+06.Sounds : 오디오 파일 저장
+07.Animations : 애니메이터 컨트롤러 및 각종 애니메이션 클립을 저
