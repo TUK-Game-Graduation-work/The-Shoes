@@ -349,7 +349,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/02.Scripts/Character/Player Move.cs"
+"Assets/02.Scripts/Character/PlayerMove.cs"
 "Assets/05.Models/MainCharacter/Scripts/DemoFree.cs"
 "Assets/05.Models/MainCharacter/Scripts/FreeCameraLogic.cs"
 "Assets/05.Models/MainCharacter/Scripts/SimpleSampleCharacterControl.cs"
