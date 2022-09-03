@@ -5,8 +5,8 @@ using UnityEngine;
 public class PlayerMove : MonoBehaviour
 {
     private Rigidbody playerRigidbody;
-    public float moveSpeed = 10f;
-    public float jumpPower = 10f;
+    public float moveSpeed = 3.0f;
+    public float jumpPower = 10.0f;
 
     private bool isJumping = false; //점프 상태 확인
     private int jumpCount = 2;      //점프 횟수 변경시 값 변경
@@ -19,6 +19,10 @@ public class PlayerMove : MonoBehaviour
 
     void Update()
     {
+<<<<<<< Updated upstream
+=======
+        //playerRigidbody.AddForce(Vector3.down * forceGravity);
+>>>>>>> Stashed changes
         if (Input.GetKey(KeyCode.W))
             playerRigidbody.AddForce(0, 0, moveSpeed);
         if (Input.GetKey(KeyCode.A))
@@ -28,6 +32,7 @@ public class PlayerMove : MonoBehaviour
         if (Input.GetKey(KeyCode.D))
             playerRigidbody.AddForce(moveSpeed, 0, 0);
         jump();
+<<<<<<< Updated upstream
     }
     void OnCollisionEnter(Collision collision)
     {
@@ -37,6 +42,8 @@ public class PlayerMove : MonoBehaviour
             isJumping = false;
             jumpCount = 2;
         }
+=======
+>>>>>>> Stashed changes
     }
 
     void jump()
