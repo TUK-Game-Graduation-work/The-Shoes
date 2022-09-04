@@ -19,10 +19,6 @@ public class PlayerMove : MonoBehaviour
 
     void Update()
     {
-<<<<<<< Updated upstream
-=======
-        //playerRigidbody.AddForce(Vector3.down * forceGravity);
->>>>>>> Stashed changes
         if (Input.GetKey(KeyCode.W))
             playerRigidbody.AddForce(0, 0, moveSpeed);
         if (Input.GetKey(KeyCode.A))
@@ -32,7 +28,6 @@ public class PlayerMove : MonoBehaviour
         if (Input.GetKey(KeyCode.D))
             playerRigidbody.AddForce(moveSpeed, 0, 0);
         jump();
-<<<<<<< Updated upstream
     }
     void OnCollisionEnter(Collision collision)
     {
@@ -42,8 +37,6 @@ public class PlayerMove : MonoBehaviour
             isJumping = false;
             jumpCount = 2;
         }
-=======
->>>>>>> Stashed changes
     }
 
     void jump()
