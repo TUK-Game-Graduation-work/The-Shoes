@@ -141,7 +141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 50
-  jumpPower: 10
+  jumpPower: 15
 --- !u!54 &100565108
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -184,11 +184,11 @@ GameObject:
   - component: {fileID: 206889852}
   m_Layer: 0
   m_Name: Terrain
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!154 &206889852
 TerrainCollider:
   m_ObjectHideFlags: 0
@@ -261,6 +261,7 @@ GameObject:
   - component: {fileID: 456474561}
   - component: {fileID: 456474560}
   - component: {fileID: 456474563}
+  - component: {fileID: 456474565}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -341,11 +342,28 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 456474559}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec4e6c5b7ea6ef147ac3a92c5b7ac57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &456474565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 456474559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 302e5b474b711d842a3ad59c428501c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Target: {fileID: 100565106}
+  offsetX: 0
+  offsetY: 3
+  offsetZ: -3
+  CameraSpeed: 10
 --- !u!1001 &1292352821
 PrefabInstance:
   m_ObjectHideFlags: 0
