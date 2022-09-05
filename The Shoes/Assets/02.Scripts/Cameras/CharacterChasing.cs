@@ -12,6 +12,11 @@ public class CharacterChasing : MonoBehaviour
     public float offsetY = 10.0f;
     public float offsetZ = -10.0f;
 
+    //카메라 각도
+    public float angleX = 0.0f;    
+    public float angleY = 0.0f;    
+    public float angleZ = 0.0f;    
+
     //타겟 위치
     Vector3 TargetPos;
 
@@ -40,7 +45,7 @@ public class CharacterChasing : MonoBehaviour
             Target.transform.position.y + offsetY,
             Target.transform.position.z + offsetZ);
 
-/*        //X 움직임
+/*      //X 움직임
         if (TargetPos.x >= maxX || TargetPos.x <= minX)
         {
             maxX = TargetPos.x + moveWidth;
@@ -54,8 +59,11 @@ public class CharacterChasing : MonoBehaviour
             maxZ = TargetPos.z - 2.5f + moveWidth;
             minZ = TargetPos.z - 2.5f - moveWidth;
             transform.position = Vector3.Lerp(transform.position, TargetPos, Time.deltaTime*CameraSpeed);
-        }*/
-            transform.position = Vector3.Lerp(transform.position, TargetPos, Time.deltaTime*CameraSpeed);
+        }
+*/
+
+        transform.position = Vector3.Lerp(transform.position, TargetPos, Time.deltaTime*CameraSpeed);
+        transform.rotation = Quaternion.Euler(angleX, angleY, angleZ);
     }
 }
 
