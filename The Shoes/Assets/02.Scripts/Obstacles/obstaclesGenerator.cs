@@ -8,15 +8,15 @@ public class obstaclesGenerator : MonoBehaviour
     GameObject player;
     GameObject preStone;
 
-    public void makeStone()
-    {
-        if (this.preStone.GetComponent<RollingStone>().isCollision == true)
-        {
-            GameObject NewStone = Instantiate(stone) as GameObject;
-            this.preStone = NewStone;
-            this.player.GetComponent<PlayerMove>().stone = NewStone;
-        }
-    }
+    //public void makeStone()
+    //{
+    //    if (this.preStone.GetComponent<RollingStone>().isCollision == true)
+    //    {
+    //        GameObject NewStone = Instantiate(stone) as GameObject;
+    //        this.preStone = NewStone;
+    //        this.player.GetComponent<PlayerMove>().stone = NewStone;
+    //    }
+    //}
     void Start()
     {
         this.player = GameObject.Find("Player");
@@ -25,6 +25,11 @@ public class obstaclesGenerator : MonoBehaviour
 
     void Update()
     {
-        makeStone();
+        if (this.preStone.GetComponent<RollingStone>().isCollision == true)
+        {
+            GameObject NewStone = Instantiate(stone) as GameObject;
+            this.preStone = NewStone;
+            this.player.GetComponent<PlayerMove>().stone = NewStone;
+        }
     }
 }
