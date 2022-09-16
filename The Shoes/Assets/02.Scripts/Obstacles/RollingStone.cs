@@ -19,7 +19,6 @@ public class RollingStone : MonoBehaviour
         if (this.isCollision)
         {
             Destroy(gameObject);
-            this.isCollision = false;
         }
         //플레이어 위치에 따라 돌 굴러내려오기 시작 및 소멸되면 다시 굴러오기.
         //이 과정은 돌을 내려보내는 역할을 맡는 스크립트가 해야 할 듯.

@@ -17,7 +17,7 @@ public class PlayerMove : MonoBehaviour
     {
         jumpCount = 0;
         playerRigidbody = GetComponent<Rigidbody>();
-        this.stone = GameObject.Find("RollingStone");
+        this.stone = GameObject.FindGameObjectWithTag("Stone");
     }
 
     void Update()
@@ -44,7 +44,6 @@ public class PlayerMove : MonoBehaviour
         //굴러오는 돌에 닿았을 때  
         if (collision.gameObject.CompareTag("Stone"))
         {
-            //Debug.Log("돌에 맞음");
             this.stone.GetComponent<RollingStone>().isCollision = true; //충돌을 알림.
         }
 

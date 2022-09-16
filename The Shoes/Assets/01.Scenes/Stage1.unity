@@ -212,7 +212,7 @@ GameObject:
   - component: {fileID: 146844234}
   - component: {fileID: 146844233}
   m_Layer: 0
-  m_Name: obstaclesGenerator
+  m_Name: ObstaclesGenerator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
