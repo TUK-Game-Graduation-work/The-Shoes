@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -11,13 +12,22 @@ public class GameManager : MonoBehaviour
      ----------------------------------------------------------------
      현재 논외. UI Manager : pause(ESC), restart, exit 등.. 메뉴 만들기
      */
+
+    public bool isGameOver;
+
     void Start()
     {
-        
+        isGameOver = false;
     }
 
     void Update()
     {
-        
+        if (isGameOver == true)
+        {
+            //업데이트 함수 종료 + 나중에는 오버 씬으로 씬 변경
+            SceneManager.LoadScene("Stage1");
+            return;
+
+        }
     }
 }
