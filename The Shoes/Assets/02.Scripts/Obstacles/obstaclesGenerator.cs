@@ -20,7 +20,6 @@ public class obstaclesGenerator : MonoBehaviour
         {
             GameObject NewStone = Instantiate(stone) as GameObject;
             this.preStone = NewStone;
-            this.player.GetComponent<PlayerMove>().stone = NewStone;
         }
     }
 }

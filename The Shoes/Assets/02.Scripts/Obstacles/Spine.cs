@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Spine : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public bool isCollision = false;
+
     void Start()
     {
         
@@ -13,6 +14,6 @@ public class Spine : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }

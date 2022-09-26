@@ -11,13 +11,10 @@ public class PlayerMove : MonoBehaviour
     private bool isJumping = false; //점프 상태 확인
     private int jumpCount = 2;      //점프 횟수 변경시 값 변경
 
-    public GameObject stone; //stone 객체 받아오기 위함.
-
     void Start()
     {
         jumpCount = 0;
         playerRigidbody = GetComponent<Rigidbody>();
-        this.stone = GameObject.FindGameObjectWithTag("Stone");
     }
 
     void Update()
@@ -44,13 +41,13 @@ public class PlayerMove : MonoBehaviour
         //굴러오는 돌에 닿았을 때  
         if (collision.gameObject.CompareTag("Stone"))
         {
-            this.stone.GetComponent<RollingStone>().isCollision = true; //충돌을 알림.
+            collision.gameObject.GetComponent<RollingStone>().isCollision = true; //충돌을 알림.
         }
 
         //가시에 닿았을 때
         if (collision.gameObject.CompareTag("Spine") || collision.gameObject.CompareTag("Water"))
         {
-            Debug.Log("가시에 닿음");
+            collision.gameObject.GetComponent<Spine>().isCollision = true; //충돌을 알림.
         }
     }
 

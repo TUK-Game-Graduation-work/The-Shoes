@@ -11,6 +11,9 @@ public class GameManager : MonoBehaviour
      ----------------------------------------------------------------
      현재 논외. UI Manager : pause(ESC), restart, exit 등.. 메뉴 만들기
      */
+
+    bool isOver = false;
+
     void Start()
     {
         
