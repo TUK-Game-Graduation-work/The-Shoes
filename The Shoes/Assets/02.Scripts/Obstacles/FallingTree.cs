@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class FallingTree : MonoBehaviour
 {
+    public GameManager gameManager;
+
     GameObject player = null;
     Vector3 treeCurPos;
 
@@ -11,8 +13,22 @@ public class FallingTree : MonoBehaviour
     public float fallingSpeed = 80.0f;
     public float stopFallingTime = 33.0f;
 
+
     float distance = 0.0f;
     float time = 0.0f;
+
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            print("ºÎ‹HÈû!!");
+            gameManager.isGameOver = true;
+            /*if (!gameManager.isGameOver)
+            {
+                gameManager.isGameOver = true;
+            }*/
+        }
+    }
 
     void Start()
     {
