@@ -19,6 +19,7 @@ public class PlayerMove : MonoBehaviour
 
     void Update()
     {
+       // Debug.Log(Time.deltaTime);
         if (Input.GetKey(KeyCode.W))
             playerRigidbody.AddForce(0, 0, moveSpeed);
         if (Input.GetKey(KeyCode.A))
@@ -64,4 +65,5 @@ public class PlayerMove : MonoBehaviour
             }
         }
     }
+
 }
