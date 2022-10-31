@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
+    public GameManager gameManager;
     private Rigidbody playerRigidbody;
     public float moveSpeed = 0.5f;
     public float jumpPower = 10.0f;
@@ -38,7 +39,11 @@ public class PlayerMove : MonoBehaviour
             isJumping = false;
             jumpCount = 2;
         }
-
+        //물에 닿았을 때  
+        if (collision.gameObject.CompareTag("Water"))
+        {
+            gameManager.isGameOver = true;
+        }
         //굴러오는 돌에 닿았을 때  
         if (collision.gameObject.CompareTag("Stone"))
         {
