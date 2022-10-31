@@ -51,7 +51,7 @@ public class PlayerMove : MonoBehaviour
         }
 
         //가시에 닿았을 때
-        if (collision.gameObject.CompareTag("Spine") || collision.gameObject.CompareTag("Water"))
+        if (collision.gameObject.CompareTag("Spine"))
         {
             collision.gameObject.GetComponent<Spine>().isCollision = true; //충돌을 알림.
         }

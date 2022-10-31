@@ -16,7 +16,7 @@ public class RollingStone : MonoBehaviour
 
     void Update()
     {
-        if (this.isCollision)
+        if (this.isCollision || transform.position.y < -1f)
         {
             Destroy(gameObject);
         }

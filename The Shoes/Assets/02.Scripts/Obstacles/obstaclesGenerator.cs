@@ -5,23 +5,26 @@ using UnityEngine;
 public class obstaclesGenerator : MonoBehaviour
 {
     GameObject player;
-    GameObject preStone;
     public GameObject stone;
     public GameObject board;
     float delTime = 1f;
+    float StonedelTime = 1f;
 
     void Start()
     {
         this.player = GameObject.Find("Player");
-        this.preStone = GameObject.FindGameObjectWithTag("Stone");
     }
 
     void Update()
     {
-        if (this.preStone.GetComponent<RollingStone>().isCollision == true)
+        if (StonedelTime >= 8f)
         {
             GameObject NewStone = Instantiate(stone) as GameObject;
-            this.preStone = NewStone;
+            StonedelTime = 0f;
+        }
+        else
+        {
+            StonedelTime += Time.deltaTime;
         }
 
         if (this.player.transform.position.x <= -45f && this.player.transform.position.z >= 16f)
