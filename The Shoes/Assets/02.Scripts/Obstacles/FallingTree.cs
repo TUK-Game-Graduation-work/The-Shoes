@@ -47,11 +47,11 @@ public class FallingTree : MonoBehaviour
             //Debug.Log("나무 쓰러짐");
             if (time <= stopFallingTime)
             {
-                this.transform.Translate(-1, 0, 0);
-                this.transform.Translate(0, -2, 0);
-                this.transform.Rotate(Vector3.forward * Time.deltaTime * fallingSpeed);
-                this.transform.Translate(0, 2, 0);
                 this.transform.Translate(1, 0, 0);
+                this.transform.Translate(0, 2, 0);
+                this.transform.Rotate(-Vector3.right * Time.deltaTime * fallingSpeed);
+                this.transform.Translate(0, -2, 0);
+                this.transform.Translate(-1, 0, 0);
                 //Time.timeScale = 0;
             }
         }
