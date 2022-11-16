@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7417836566805944955}
   - component: {fileID: 5863309148964263390}
   - component: {fileID: 8555255801755787540}
-  - component: {fileID: -3402153838268790278}
+  - component: {fileID: -6629294583478763253}
   m_Layer: 0
   m_Name: BLOCK 1
   m_TagString: Ground
@@ -28,8 +28,8 @@ Transform:
   m_GameObject: {fileID: 7906812015286370497}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.1067386, y: 0.5304067, z: -6.6410284}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.99, y: 0.99, z: 0.99}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -84,8 +84,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &-3402153838268790278
-BoxCollider:
+--- !u!64 &-6629294583478763253
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -94,6 +94,7 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.016, y: 1.0160003, z: 1.0160003}
-  m_Center: {x: 0, y: 0, z: 0}
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5060444177187149915, guid: 20ccd9646c5d31447ac3ee31e8312169, type: 3}
