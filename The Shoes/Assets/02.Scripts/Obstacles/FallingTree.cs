@@ -32,10 +32,11 @@ public class FallingTree : MonoBehaviour
 
     void Start()
     {
+        gameManager.isGameOver = false;
         player = GameObject.Find("Player");
         //player = GameObject.FindGameObjectsWithTag("Player");
 
-        treeCurPos = this.transform.position;
+        //treeCurPos = this.transform.position;
     }
 
     void Update()
@@ -47,11 +48,11 @@ public class FallingTree : MonoBehaviour
             //Debug.Log("³ª¹« ¾²·¯Áü");
             if (time <= stopFallingTime)
             {
-                this.transform.Translate(1, 0, 0);
-                this.transform.Translate(0, 2, 0);
+                //this.transform.Translate(1, 0, 0);
+                //this.transform.Translate(0, 2, 0);
                 this.transform.Rotate(-Vector3.right * Time.deltaTime * fallingSpeed);
-                this.transform.Translate(0, -2, 0);
-                this.transform.Translate(-1, 0, 0);
+                //this.transform.Translate(0, -2, 0);
+                //this.transform.Translate(-1, 0, 0);
                 //Time.timeScale = 0;
             }
         }

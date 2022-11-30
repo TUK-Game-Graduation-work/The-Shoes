@@ -15,19 +15,35 @@ public class GameManager : MonoBehaviour
 
     public bool isGameOver;
 
+    public GameObject player;
+    public GameObject currCheckPoint;
+
+    private CheckPoint checkPoint;
+
+
     void Start()
     {
         isGameOver = false;
+        this.player = GameObject.Find("Player");
+        this.checkPoint = FindObjectOfType<CheckPoint>();
     }
 
     void Update()
     {
+
         if (isGameOver == true)
         {
-            //업데이트 함수 종료 + 나중에는 오버 씬으로 씬 변경
-            SceneManager.LoadScene("Stage1");
-            return;
+            if (checkPoint.CheckReach == true)
+            {
+                this.player.transform.position = checkPoint.posi;
+                isGameOver = false;
+            }
+            else
+            {
+                SceneManager.LoadScene("Stage1");
+                isGameOver = false;
 
+            }
         }
     }
 }

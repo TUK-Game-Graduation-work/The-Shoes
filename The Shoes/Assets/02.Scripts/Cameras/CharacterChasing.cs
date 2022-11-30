@@ -23,16 +23,6 @@ public class CharacterChasing : MonoBehaviour
     //카메라 속도
     public float CameraSpeed = 10.0f;
 
-/*    //화면 정지상태일 때 움직임 폭 설정
-    float moveWidth = 3.0f;
-
-    //기초 폭 설정
-    float maxX = 3.0f;
-    float minX = -3.0f;
-    float maxZ = 0.5f;
-    float minZ = -5.5f;
-*/
-
     void Start()
     {
      
@@ -43,27 +33,11 @@ public class CharacterChasing : MonoBehaviour
         TargetPos = new Vector3(
             Target.transform.position.x + offsetX,
             Target.transform.position.y + offsetY,
-            Target.transform.position.z + offsetZ);
+            Target.transform.position.z + offsetZ
+            );
 
-/*      //X 움직임
-        if (TargetPos.x >= maxX || TargetPos.x <= minX)
-        {
-            maxX = TargetPos.x + moveWidth;
-            minX = TargetPos.x - moveWidth;
-            transform.position = Vector3.Lerp(transform.position, TargetPos, Time.deltaTime*CameraSpeed);
-        }
-
-        //Z 움직임
-        if (TargetPos.z - 2.5f >= maxZ || TargetPos.z - 2.5f <= minZ)
-        {
-            maxZ = TargetPos.z - 2.5f + moveWidth;
-            minZ = TargetPos.z - 2.5f - moveWidth;
-            transform.position = Vector3.Lerp(transform.position, TargetPos, Time.deltaTime*CameraSpeed);
-        }
-*/
-
-        transform.position = Vector3.Lerp(transform.position, TargetPos, Time.deltaTime*CameraSpeed);
         transform.rotation = Quaternion.Euler(angleX, angleY, angleZ);
+        transform.position = Vector3.Lerp(transform.position, TargetPos, Time.deltaTime*CameraSpeed);
     }
 }
 

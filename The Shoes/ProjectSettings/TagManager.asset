@@ -8,6 +8,7 @@ TagManager:
   - Stone
   - Spine
   - Water
+  - CheckPoint
   layers:
   - Default
   - TransparentFX
