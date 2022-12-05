@@ -25,11 +25,11 @@ public class GameManager : MonoBehaviour
     {
         isGameOver = false;
         this.player = GameObject.Find("Player");
-        this.checkPoint = FindObjectOfType<CheckPoint>();
     }
 
     void Update()
     {
+        this.checkPoint = FindObjectOfType<CheckPoint>();
 
         if (isGameOver == true)
         {

@@ -12,7 +12,7 @@ public class CheckPoint : MonoBehaviour
         if (other.tag == "Player")
         {
             print("체크포인트 충돌");
-            posi = transform.position;
+            posi = this.transform.position;
             CheckReach = true;
 
         }
