@@ -9,6 +9,8 @@ TagManager:
   - Spine
   - Water
   - CheckPoint
+  - Enemy
+  - Bullet360
   layers:
   - Default
   - TransparentFX
