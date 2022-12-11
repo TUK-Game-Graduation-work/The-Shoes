@@ -9,6 +9,7 @@ public class PlayerMove : MonoBehaviour
     public float moveSpeed = 0.5f;
     public float jumpPower = 10.0f;
 
+    public bool isAttack = false;
     private bool isJumping = false; //점프 상태 확인
     private int jumpCount = 2;      //점프 횟수 변경시 값 변경
 
@@ -29,6 +30,9 @@ public class PlayerMove : MonoBehaviour
             playerRigidbody.AddForce(0, 0, -moveSpeed);
         if (Input.GetKey(KeyCode.D))
             playerRigidbody.AddForce(moveSpeed, 0, 0);
+        if (Input.GetKey(KeyCode.E))
+            isAttack = true;
+
         jump();
     }
     void OnCollisionEnter(Collision collision)
