@@ -11,11 +11,10 @@ public class Enemy : MonoBehaviour
     //true 생존, false 소멸
     public bool enemyState;
 
-    void OnCollisionEnter(Collision col)
+    void OnTriggerEnter(Collider other)
     {
-        if (col.gameObject.tag == "Bullet360")
+        if (other.gameObject.tag == "Bullet360")
         {
-            //나중에 탄환 스크립트에서 변수만들면 바꾸기
             enemyHP -= 2;
         }
 
