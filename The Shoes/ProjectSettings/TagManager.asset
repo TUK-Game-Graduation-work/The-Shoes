@@ -11,6 +11,7 @@ TagManager:
   - CheckPoint
   - Enemy
   - Bullet360
+  - Gate
   layers:
   - Default
   - TransparentFX
