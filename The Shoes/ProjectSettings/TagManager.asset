@@ -12,6 +12,7 @@ TagManager:
   - Enemy
   - Bullet360
   - Gate
+  - boomerang
   layers:
   - Default
   - TransparentFX

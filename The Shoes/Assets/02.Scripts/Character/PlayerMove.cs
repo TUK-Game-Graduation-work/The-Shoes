@@ -8,6 +8,8 @@ public class PlayerMove : MonoBehaviour
     private Rigidbody playerRigidbody;
     public float moveSpeed = 0.5f;
     public float jumpPower = 10.0f;
+    public char inputKey = 'W';
+    public GameObject Boomernag;
 
     public bool isAttack = false;
     private bool isJumping = false; //점프 상태 확인
@@ -21,17 +23,36 @@ public class PlayerMove : MonoBehaviour
 
     void Update()
     {
-       // Debug.Log(Time.deltaTime);
+        // Debug.Log(Time.deltaTime);
         if (Input.GetKey(KeyCode.W))
+        {
+            inputKey = 'W';
             playerRigidbody.AddForce(0, 0, moveSpeed);
+        }
         if (Input.GetKey(KeyCode.A))
+        {
             playerRigidbody.AddForce(-moveSpeed, 0, 0);
+            inputKey = 'A';
+        }
         if (Input.GetKey(KeyCode.S))
+        {
             playerRigidbody.AddForce(0, 0, -moveSpeed);
+            inputKey = 'S';
+        }
         if (Input.GetKey(KeyCode.D))
+        {
             playerRigidbody.AddForce(moveSpeed, 0, 0);
+            inputKey = 'D';
+        }
         if (Input.GetKey(KeyCode.E))
+        {
+            if(isAttack != true)
+            {
+                Debug.Log("E");
+                GameObject NewBoomerang = Instantiate(Boomernag) as GameObject;
+            }
             isAttack = true;
+        }
 
         jump();
     }

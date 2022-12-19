@@ -15,13 +15,17 @@ public class Enemy : MonoBehaviour
     {
         if (other.gameObject.tag == "Bullet360")
         {
-            enemyHP -= 2;
+            enemyHP -= 20;
+        }
+        if(other.gameObject.tag == "boomerang")
+        {
+            enemyHP -= 30;
         }
 
     }
     void Start()
     {
-        enemyMaxHP = 10;
+        enemyMaxHP = 100;
         enemyHP = enemyMaxHP;
         enemyMinHP = 0;
         enemyState = true;
